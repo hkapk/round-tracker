@@ -4,7 +4,7 @@ function Header({totalScore}) {
   return (
     <header>
       <h1> Score Tracker</h1>
-      <div className='total-score'> {totalScore} </
+      <div className='total-score'> Current Score: {totalScore} </
       div>
     </header>
   )
